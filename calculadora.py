@@ -50,8 +50,13 @@ while True:
       resultado = num1 / num2
       print("Resultado:", resultado)
 
-   continuar = input("\nDeseja realizar outra operação? (s/n): ")
+   while True:
+     continuar = input("Deseja realizar outra operação? (s/n): ").lower()
 
-   if continuar.lower() != "s":
+     if continuar in ["s", "n"]:
+       break
+     print("Resposta inválida!")
+
+   if continuar == "n":
      print("Até logo!")
      break
