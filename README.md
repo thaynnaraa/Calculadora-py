@@ -8,4 +8,4 @@ Este projeto foi desenvolvido como atividade prática do curso de Análise de Da
  - Execute o arquivo: `./calculadora.sh`
 
 # Explicação
-O arquivo recebe dos usuários os dados/números a serem utilizados em equações básicas, como, soma, subtração, multiplicação, potenciação e divisão. Ele realiza essa função de forma simples e rápida.
+O programa recebe dos usuários os dados/números a serem utilizados em equações básicas, como, soma, subtração, multiplicação, potenciação e divisão. Ele realiza essa função de forma simples e rápida. Além disso, após a execução do cálculo, o programa pergunta ao usuário se ele deseja realizar uma nova operação. Caso a resposta seja positiva, a calculadora retorna ao menu inicial, e caso contrário, o programa é encerrado.
